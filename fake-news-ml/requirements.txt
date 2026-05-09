@@ -1,0 +1,11 @@
+scikit-learn
+pandas
+nltk
+fastapi
+uvicorn
+joblib
+shap
+newspaper3k
+pytest
+httpx
+python-dotenv
