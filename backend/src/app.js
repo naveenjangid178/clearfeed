@@ -16,14 +16,14 @@ app.use(cookieParser())
 
 //Routes import
 import userRouter from "./routes/user.routes.js"
-import analyzeRouter from "./routes/analytics.routes.js"
+import predictionRouter from "./routes/prediction.routes.js"
 import historyRouter from "./routes/history.routes.js"
 import analyticsRouter from "./routes/analytics.routes.js"
 import feedbackRouter from "./routes/feedback.routes.js"
 
 //Routes Declaration
 app.use("/api/v1/users", userRouter)
-app.use("/api/v1/analyze", analyzeRouter)
+app.use("/api/v1/predictions", predictionRouter)
 app.use("/api/v1/history ", historyRouter)
 app.use("/api/v1/analytics", analyticsRouter)
 app.use("/api/v1/feedback", feedbackRouter)
