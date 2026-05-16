@@ -9,6 +9,7 @@ const authApi = {
 
     login: async (data) => {
         const res = await axiosInstance.post("/users/login", data)
+        console.log(res)
         return res.data
     },
 
